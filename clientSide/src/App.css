@@ -1,0 +1,65 @@
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes appear {
+    from {font-size: 5px;}
+    to {font-size: 26px;}
+}
+
+@keyframes spring {
+    from {transform: scale(0.5);}
+    to {transform: scale(100%);}
+}
+
+@keyframes zoom {
+    from {transform: scaleY(0.5); opacity: 0;}
+    to {transform: scaleY(1); opacity: 1;}
+}
+
+@keyframes translate_from_left {
+    from {margin-left: -50px; opacity: 0;}
+    to {margin-left: 0px; opacity: 1;}
+}
+
+@keyframes translate_from_right {
+    from {margin-right: -50px; opacity: 0;}
+    to {margin-right: 0px; opacity: 1;}
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #172b4d !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: #b3d4fc;
+    color: #000;
+    text-shadow: none;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+.Bg {
+    animation: BgInFade 1s;
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    height: 547px;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+    right: -5%;
+    z-index: 10;
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}

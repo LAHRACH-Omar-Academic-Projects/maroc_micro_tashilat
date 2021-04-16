@@ -1,0 +1,49 @@
+.CustomNavbar {
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    padding: 30px 220px 30px 190px;
+    left: 0;
+    right: 0;
+}
+
+.CustomNavbar .NavItem, .CustomNavbar .User {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .95);
+    font-size: .875rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.CustomNavbar .User {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+}
+
+.CustomNavbar .NavItem:hover, .CustomNavbar .User:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.2s;
+}
+
+.CustomNavbar .LeftSide, .CustomNavbar .RightSide {
+    display: flex;
+    align-items: center;
+}
+
+.CustomNavbar .LeftSide .Logo {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1280px) {
+    .CustomNavbar {
+        padding: 30px 50px 30px 20px;
+    }
+}

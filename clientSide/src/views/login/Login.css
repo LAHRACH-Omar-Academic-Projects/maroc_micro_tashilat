@@ -1,0 +1,92 @@
+.Login {
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Login .Header {
+    width: 400px;
+    margin: auto;
+}
+
+.Login .Header .Title {
+    animation: appear 0.5s;
+    box-sizing: border-box;
+    color: #fff !important;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: .5rem;
+    font-size: 26px;
+}
+
+.Login .Header .Subtitle {
+    color: #fff !important;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.Login .Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    padding: 20px 20px 80px 20px;
+    background-color: #f7fafc !important;
+    background-clip: border-box;
+    min-width: 0;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    margin: 120px auto 20px auto;
+    width: 400px;
+    animation: fade 2s;
+    transition: 0.5s;
+}
+
+.Login .Form .Title {
+    color: rgb(98, 111, 133);
+    margin-bottom: 50px;
+}
+
+.Login .Links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 200px auto;
+    width: 400px;
+}
+
+.Login .Link {
+    text-decoration: none;
+}
+
+.Login .Links .ForgotPasswordLink, .Login .Links .NewAccountLink {
+    color: #ced4da !important;
+    font-size: 80%;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.Login .Links .ForgotPasswordLink:hover, .Login .Links .NewAccountLink:hover {
+    color: #9ba5ad !important;
+    transition: 0.2s;
+} 
+
+.Login .Danger {
+    border: 2px solid rgb(255, 0, 43);
+    color: rgb(255, 0, 43);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 35px;
+    width: 300px;
+    animation: spring 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

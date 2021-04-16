@@ -1,0 +1,10 @@
+.Profile {
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

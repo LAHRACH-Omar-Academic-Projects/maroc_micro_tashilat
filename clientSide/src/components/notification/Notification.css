@@ -1,0 +1,65 @@
+.Notification {
+    background-color: white;
+    margin: 5px 8px 0px 8px;
+    animation: zoom 0.8s;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 4px 5px 0px 0px;
+    display: flex;
+    font-size: small;
+    box-shadow: 0px 0px 1px grey;
+}
+
+.Notification-popup {
+    background-color: rgb(145, 224, 255);
+    margin: 5px 8px 0px 8px;
+    animation: translate_from_right 0.8s;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 4px 5px 0px 0px;
+    display: flex;
+    position: fixed;
+    z-index: 3000;
+    right: 0;
+    top: 65;
+    font-size: small;
+    box-shadow: 0 5px 2px rgba(50, 50, 93, .1), 0 5px 2px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    width: 300px;
+}
+
+.Notification:hover, .Notification-popup:hover {
+    box-shadow: 0 5px 2px rgba(50, 50, 93, .1), 0 5px 2px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    transition: 0.5s;
+}
+
+.Notification .Avatar, .Notification-popup .Avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 6px 6px 3px;
+    box-sizing: border-box;
+}
+
+.Notification .Desc, .Notification-popup .Desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Notification .Desc p, .Notification-popup .Desc p {
+    margin: 0;
+}
+
+.Notification .Desc p span, .Notification-popup .Desc p span {
+    font-size: small;
+}
+
+.Notification .Desc span, .Notification-popup .Desc span {
+    margin-top: 5px;
+    font-size: x-small;
+}
+
+.Notification .Close {
+    margin: 10px;
+    cursor: pointer;   
+}

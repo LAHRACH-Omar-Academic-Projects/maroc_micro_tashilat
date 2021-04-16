@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microUserTraces" />
+        <module name="microMoneyTransfer" />
+        <module name="microBillPayment" />
+        <module name="microRecharge" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microAgencyUi" target="11" />
+      <module name="microBillPayment" target="11" />
+      <module name="microMoneyTransfer" target="11" />
+      <module name="microRecharge" target="11" />
+      <module name="microUserTraces" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microAgencyUi" options="-parameters" />
+      <module name="microBillPayment" options="-parameters" />
+      <module name="microMoneyTransfer" options="-parameters" />
+      <module name="microRecharge" options="-parameters" />
+      <module name="microUserTraces" options="-parameters" />
+    </option>
+  </component>
+</project>

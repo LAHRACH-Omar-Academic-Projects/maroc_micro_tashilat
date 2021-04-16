@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/marocTashilat.iml" filepath="$PROJECT_DIR$/.idea/marocTashilat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microBillPayment/microBillPayment.iml" filepath="$PROJECT_DIR$/microBillPayment/microBillPayment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microMoneyTransfer/microMoneyTransfer.iml" filepath="$PROJECT_DIR$/microMoneyTransfer/microMoneyTransfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microRecharge/microRecharge.iml" filepath="$PROJECT_DIR$/microRecharge/microRecharge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microUserTraces/microUserTraces.iml" filepath="$PROJECT_DIR$/microUserTraces/microUserTraces.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,74 @@
+.NotFound {
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+.NotFound .Card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    animation: spring 0.2s;
+    width: 550px;
+    margin: auto; 
+    text-align: start;
+    transition: 0.5s;
+}
+
+.NotFound .Card .Card-Header {
+    padding: 50px;
+}
+
+.NotFound .Card .Card-Header span {
+    font-size: 120px;
+    color: rgb(10, 107, 185);
+}
+
+.NotFound .Card  .Card-body {
+    padding: 0px 50px;
+    color: rgb(7, 44, 94);
+}
+
+.NotFound .Card  .Card-body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+.NotFound .Card .NavItem {
+    text-decoration: none;
+    margin: 5px;
+    padding: 0;
+}
+
+.NotFound .Card .NavItem:hover {
+    color: rgb(0, 167, 97);
+    transition: 0.2s;
+}
+
+.NotFound .Card  .Card-Footer {
+    padding: 0px 50px;
+    color: royalblue;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .NotFound .Card {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .NotFound .Card {
+        transform: scale(0.7);
+    }
+}

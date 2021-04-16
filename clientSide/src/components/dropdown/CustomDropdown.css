@@ -1,0 +1,64 @@
+.CustomDropdown {
+    position: relative;
+}
+
+.CustomDropdown .Dropdown:focus-within {
+    box-shadow: 0px 4px 4px rgb(192, 192, 192);
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+}
+
+.CustomDropdown .Dropdown {
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin: 8px;
+    box-shadow: 0px 1px 2px rgb(192, 192, 192);
+    background-color: white;
+    display: flex;
+    padding: 0px;
+}
+
+.CustomDropdown .Warning {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    z-index: 10;
+    top: 40px;
+    left: -300px;
+    right: 105px;
+}
+
+.CustomDropdown .Dropdown .CustomDropdownIcon {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CustomDropdown .Dropdown .DefaultDropdown{
+    border: none;
+    width: 100%;
+    color: rgb(151, 167, 192);
+    cursor: pointer;
+}
+
+.CustomDropdown .Dropdown .DefaultDropdown:focus {
+    outline: none !important;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(151, 167, 192);
+    font-weight: 500;
+    font-size: 14px;
+}
+
